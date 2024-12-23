@@ -91,3 +91,10 @@ function solveSudoku() {
         alert("No solution exists for the given Sudoku!");
     }
 }
+
+// Reset Sudoku grid
+function resetGrid() {
+    for (let i = 0; i < sudokuGrid.length; i++) {
+        sudokuGrid[i].value = ""; // Clear all cells
+    }
+}
