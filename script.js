@@ -86,7 +86,6 @@ function solveSudoku() {
                 sudokuGrid[row * N + col].value = grid[row][col];
             }
         }
-        alert("Sudoku solved successfully!");
     } else {
         alert("No solution exists for the given Sudoku!");
     }
